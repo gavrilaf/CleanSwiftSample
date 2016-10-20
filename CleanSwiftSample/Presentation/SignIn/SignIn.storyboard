@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Signin View Controller-->
+        <scene sceneID="Mw4-ma-Yll">
+            <objects>
+                <viewController storyboardIdentifier="SignInViewController" id="HIC-iK-MLM" customClass="SignInViewController" customModule="CleanSwiftSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4lC-Yv-lBQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="z5p-V1-XMm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xYN-s4-DTg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UBe-En-Bk5">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRK-Vc-3qq">
+                                <state key="normal" title="SignIn"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uRK-Vc-3qq" firstAttribute="top" secondItem="UBe-En-Bk5" secondAttribute="bottom" constant="14" id="73F-Ic-Lla"/>
+                            <constraint firstItem="UBe-En-Bk5" firstAttribute="top" secondItem="4lC-Yv-lBQ" secondAttribute="bottom" constant="16" id="HH6-iP-Jf8"/>
+                            <constraint firstAttribute="trailing" secondItem="uRK-Vc-3qq" secondAttribute="trailing" constant="7" id="OqT-TH-N24"/>
+                            <constraint firstAttribute="trailing" secondItem="UBe-En-Bk5" secondAttribute="trailing" constant="7" id="UCX-Fz-zy0"/>
+                            <constraint firstItem="UBe-En-Bk5" firstAttribute="leading" secondItem="xYN-s4-DTg" secondAttribute="leading" constant="7" id="b7H-3P-gXC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E2M-IY-PzN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="5YO-Ow-h1P" customClass="SignInModuleInitializer" customModule="CleanSwiftSample" customModuleProvider="target">
+                    <connections>
+                        <outlet property="signinViewController" destination="HIC-iK-MLM" id="gPN-se-mmA"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="132" y="210.94452773613196"/>
+        </scene>
+    </scenes>
+</document>
