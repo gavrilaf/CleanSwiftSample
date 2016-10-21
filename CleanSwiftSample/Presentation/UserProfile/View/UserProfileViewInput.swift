@@ -10,5 +10,5 @@
  *  Presenter -> View
  */
 protocol UserProfileViewInput: class {
-
+    func update(userName: String)
 }

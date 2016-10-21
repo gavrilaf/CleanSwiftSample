@@ -28,6 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window!.backgroundColor = UIColor.white
         window!.makeKeyAndVisible()
         
+        ServicesAssembly.shared.setup()
         AppRouter.setup(withNavigation: navigationController)
         
         AppRouter.shared.replaceViewStack(rootUrn: StartScreenFactory.shared.moduleURN, animated: true)

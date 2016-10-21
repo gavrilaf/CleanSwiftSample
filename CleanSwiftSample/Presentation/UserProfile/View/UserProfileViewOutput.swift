@@ -16,4 +16,6 @@ protocol UserProfileViewOutput {
         Notify presenter that view is ready
     */
 	func viewIsReady()
+    
+    func setup(user: String)
 }

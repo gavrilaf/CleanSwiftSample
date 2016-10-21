@@ -1,25 +1,25 @@
 //
-//  UserProfileUserProfileFactory.swift
+//  ShowBalanceShowBalanceFactory.swift
 //  CleanSwiftSample
 //
-//  Created by Eugen Fedchenko on 20/10/2016.
+//  Created by Eugen Fedchenko on 21/10/2016.
 //  Copyright © 2016 Public. All rights reserved.
 //
 
 import UIKit
 import CocoaLumberjack
 
-struct UserProfileFactory : ModuleFactoryProtocol {
+struct ShowBalanceFactory : ModuleFactoryProtocol {
 
-    private static let _shared = UserProfileFactory()
+    private static let _shared = ShowBalanceFactory()
 
-    static var shared: UserProfileFactory {
+    static var shared: ShowBalanceFactory {
         return _shared
     }
 
     // MARK: ModuleFactoryProtocol
     var moduleURN: String {
-        return "UserProfile:{user}"
+        return "ShowBalance:{user}:{type}"
     }
 
     func createModule(arguments: Dictionary<String, String>) -> UIViewController {
@@ -37,13 +37,13 @@ struct UserProfileFactory : ModuleFactoryProtocol {
         
         return controller
     }
-    
-    // MARK: Helpers
-    func createModuleURN(withUser user: String) -> String {
-        return URNBuilder(string: moduleURN).buildWithArgs(args: [user])
-    }
 
+    // MARK: Helpers
+    func createModuleURN(user: String, type: String) -> String {
+        return URNBuilder(string: moduleURN).buildWithArgs(args: [user, type])
+    }
+    
     // MARK:
-    let storyboardId = "UserProfile"
-    let initialControllerID = "UserProfileViewController"
+    let storyboardId = "ShowBalance"
+    let initialControllerID = "ShowBalanceViewController"
 }

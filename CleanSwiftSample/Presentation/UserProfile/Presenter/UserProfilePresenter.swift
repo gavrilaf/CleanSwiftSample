@@ -10,13 +10,20 @@ class UserProfilePresenter {
 
     weak var view: UserProfileViewInput!
     var interactor: UserProfileInteractorInput!
+    
+    // MARK:
+    var user: String!
 }
 
 // MARK:
 extension UserProfilePresenter: UserProfileViewOutput {
     
     func viewIsReady() {
-            
+        view.update(userName: user)
+    }
+    
+    func setup(user: String) {
+        self.user = user
     }
 }
 

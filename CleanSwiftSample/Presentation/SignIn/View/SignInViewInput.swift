@@ -10,5 +10,5 @@
  *  Presenter -> View
  */
 protocol SignInViewInput: class {
-
+    
 }

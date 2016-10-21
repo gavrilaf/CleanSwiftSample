@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Userprofile View Controller-->
+        <scene sceneID="cki-bg-XTw">
+            <objects>
+                <viewController storyboardIdentifier="UserProfileViewController" id="aG0-Lb-Zy5" customClass="UserProfileViewController" customModule="CleanSwiftSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VRl-X4-iu6"/>
+                        <viewControllerLayoutGuide type="bottom" id="3aZ-vW-xUG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fzd-6S-cpe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User profile:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4e-Lt-z9m">
+                                <frame key="frameInset" minX="10" minY="20" width="117" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User-1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIk-eU-y2Z">
+                                <frame key="frameInset" minX="10" minY="49" width="141" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="userLabel" destination="KIk-eU-y2Z" id="KVd-Gv-gSZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bUN-QO-JqI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="DDE-Y9-zlA" customClass="UserProfileModuleInitializer" customModule="CleanSwiftSample" customModuleProvider="target">
+                    <connections>
+                        <outlet property="userprofileViewController" destination="aG0-Lb-Zy5" id="s7u-Bd-d5m"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="-423.19999999999999" y="-20.239880059970016"/>
+        </scene>
+    </scenes>
+</document>

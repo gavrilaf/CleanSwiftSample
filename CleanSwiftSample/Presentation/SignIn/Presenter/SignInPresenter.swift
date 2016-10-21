@@ -18,6 +18,11 @@ extension SignInPresenter: SignInViewOutput {
     func viewIsReady() {
             
     }
+    
+    func didClickSignIn(withUser user: String) {
+        let urn = UserProfileFactory.shared.createModuleURN(withUser: user)
+        AppRouter.shared.pushModule(byUrn: urn, animated: true)
+    }
 }
 
 // MARK:

@@ -25,6 +25,9 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRK-Vc-3qq">
                                 <state key="normal" title="SignIn"/>
+                                <connections>
+                                    <action selector="didClickSignIn:" destination="HIC-iK-MLM" eventType="touchUpInside" id="y1t-Fl-faj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -36,6 +39,9 @@
                             <constraint firstItem="UBe-En-Bk5" firstAttribute="leading" secondItem="xYN-s4-DTg" secondAttribute="leading" constant="7" id="b7H-3P-gXC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="UBe-En-Bk5" id="KLJ-aq-A5x"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E2M-IY-PzN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="5YO-Ow-h1P" customClass="SignInModuleInitializer" customModule="CleanSwiftSample" customModuleProvider="target">
