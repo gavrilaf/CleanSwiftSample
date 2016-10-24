@@ -10,6 +10,7 @@
 		0CC2F20CD67437C9ECF73001 /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E64145AA89F6193EF8C8D7 /* SignInPresenter.swift */; };
 		0E512888FB9D888DCEF73EA7 /* SignInViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FE2D34DB718460DE501DA /* SignInViewOutput.swift */; };
 		195F9ACDC8D19C0D76D4ADAE /* ShowBalanceInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C13B4C6DB824DABB80BE8 /* ShowBalanceInteractorInput.swift */; };
+		2051DFD4C810EFC769604F8A /* SignUpInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7525462513BA5C8ABAA57071 /* SignUpInteractorTests.swift */; };
 		22571917863C5E6FCDE8D54D /* StartScreenConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA77BDEE744E485DD771FE19 /* StartScreenConfigurator.swift */; };
 		27733C0417BBECC4E49BA0DB /* ShowBalanceViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444C72DBD61C8B95F6E1171 /* ShowBalanceViewOutput.swift */; };
 		27F63E889D3EC6962ABB5375 /* StartScreenViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A6DC0230ACC5E8227D732 /* StartScreenViewOutput.swift */; };
@@ -42,6 +43,7 @@
 		75428DC24AD5C5B6354EA48D /* ShowBalanceInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9471ECE485953F02F169A8 /* ShowBalanceInteractorTests.swift */; };
 		7C057381CAFF310548B246A6 /* SignInFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAFBFAAD763350018957275 /* SignInFactory.swift */; };
 		7F172971D6762B34518B2209 /* StartScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099F99466C2278B3D6669CE8 /* StartScreenFactory.swift */; };
+		8B2FAF852F72CA06DD733FFB /* SignUpConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DAB5AA159FEBFCAB57BD64 /* SignUpConfiguratorTests.swift */; };
 		8D611DB1FADE8FF13678B78C /* UserProfileViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933EEAD610C3E11D502D8310 /* UserProfileViewOutput.swift */; };
 		8FB8087849F7F91E487BA3A9 /* SignInConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC68F6D266AFB99577C2C8E /* SignInConfiguratorTests.swift */; };
 		973BBA6205A32A0C372DFAE6 /* Pods_CleanSwiftSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFB4292F2D7B6C9EF7F029A /* Pods_CleanSwiftSample.framework */; };
@@ -131,6 +133,7 @@
 		663B5887702B535101964540 /* UserProfileInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfileInteractorInput.swift; sourceTree = "<group>"; };
 		68F21CEDB4E9EE5D021E683A /* Pods-CleanSwiftSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanSwiftSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanSwiftSampleTests/Pods-CleanSwiftSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6D1B2EAE5F0163C6B08F41B8 /* StartScreenInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartScreenInteractorInput.swift; sourceTree = "<group>"; };
+		7525462513BA5C8ABAA57071 /* SignUpInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpInteractorTests.swift; sourceTree = "<group>"; };
 		7EA43120CA4CC9DF06990F36 /* UserProfileConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfileConfiguratorTests.swift; sourceTree = "<group>"; };
 		88E64145AA89F6193EF8C8D7 /* SignInPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
 		92F8EFC20A12CA08595ED029 /* StartScreenInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartScreenInteractorTests.swift; sourceTree = "<group>"; };
@@ -146,6 +149,7 @@
 		C28BEDE98E67C471386B72F8 /* UserProfilePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfilePresenter.swift; sourceTree = "<group>"; };
 		C3870D2AD46928CACBD19F29 /* SignInInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInitializer.swift; sourceTree = "<group>"; };
 		C629695DC9C4EE759B61F2AC /* SignInInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractorTests.swift; sourceTree = "<group>"; };
+		C6DAB5AA159FEBFCAB57BD64 /* SignUpConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpConfiguratorTests.swift; sourceTree = "<group>"; };
 		CDD9716AB747E7BAB5E25843 /* ShowBalancePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowBalancePresenter.swift; sourceTree = "<group>"; };
 		D09FE2D34DB718460DE501DA /* SignInViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewOutput.swift; sourceTree = "<group>"; };
 		D6E0C80B0EEFF3608A4B1D49 /* SignInViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewInput.swift; sourceTree = "<group>"; };
@@ -180,6 +184,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		084FBF3F6D3D2C9980558148 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				C6DAB5AA159FEBFCAB57BD64 /* SignUpConfiguratorTests.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
 		19BD96373E547B9724780B35 /* StartScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +368,7 @@
 				19BD96373E547B9724780B35 /* StartScreen */,
 				C248B5A13366E65A3F05DD69 /* UserProfile */,
 				2ABBB7045AE8043AC2C3D1A3 /* ShowBalance */,
+				882051DE51E6BD342979C0B9 /* SignUp */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -521,6 +534,15 @@
 			path = StartScreen;
 			sourceTree = "<group>";
 		};
+		882051DE51E6BD342979C0B9 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				084FBF3F6D3D2C9980558148 /* Configurator */,
+				9D42087BCC20810DC62AF30E /* Interactor */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
 		8BB3569B242E8E2D41A0F869 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
@@ -537,6 +559,14 @@
 				C3870D2AD46928CACBD19F29 /* SignInInitializer.swift */,
 			);
 			path = Configurator;
+			sourceTree = "<group>";
+		};
+		9D42087BCC20810DC62AF30E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7525462513BA5C8ABAA57071 /* SignUpInteractorTests.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		A43F97AF689D2E9828E56F9F /* Interactor */ = {
@@ -928,6 +958,8 @@
 				467925A51DBA586A00B31EE4 /* URNBuilderTests.swift in Sources */,
 				DDEDD2AA2729EAFD2BC4AA2E /* ShowBalanceConfiguratorTests.swift in Sources */,
 				75428DC24AD5C5B6354EA48D /* ShowBalanceInteractorTests.swift in Sources */,
+				8B2FAF852F72CA06DD733FFB /* SignUpConfiguratorTests.swift in Sources */,
+				2051DFD4C810EFC769604F8A /* SignUpInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
