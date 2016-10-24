@@ -14,5 +14,5 @@ protocol ModuleInputProtocol {
      * Configure module with arguments.
      * Calls form Module factory
      */
-    func setupInitialState(withArguments args: Dictionary<String, String>)
+    func setupInitialState(withArguments args: NamedValuesType, completion: ModuleCompletionHandler?)
 }

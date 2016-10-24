@@ -11,11 +11,8 @@
  */
 protocol StartScreenViewOutput {
 
-    /**
-        @author Eugen Fedchenko
-        Notify presenter that view is ready
-    */
-	func viewIsReady()
+    func setupInitialState(withArguments args: NamedValuesType, completion: ModuleCompletionHandler?)
+    func viewIsReady()
     
     func didClickOpenSignIn()
 }

@@ -13,18 +13,28 @@ class UserProfilePresenter {
     
     // MARK:
     var user: String!
+    var moduleCompletion: ModuleCompletionHandler?
 }
 
 // MARK:
 extension UserProfilePresenter: UserProfileViewOutput {
     
+    func setupInitialState(withArguments args: NamedValuesType, completion: ModuleCompletionHandler?) {
+        moduleCompletion = completion
+        
+        user = args["user"]
+    }
+    
     func viewIsReady() {
         view.update(userName: user)
     }
     
-    func setup(user: String) {
-        self.user = user
+    func didCloseModuleClick() {
+        if let completion = moduleCompletion {
+            completion(nil)
+        }
     }
+    
 }
 
 // MARK:

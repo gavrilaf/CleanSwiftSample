@@ -27,8 +27,8 @@ class StartScreenViewController: UIViewController {
 // MARK:
 extension StartScreenViewController: ModuleInputProtocol {
 
-    func setupInitialState(withArguments args: Dictionary<String, String>) {
-        
+    func setupInitialState(withArguments args: NamedValuesType, completion: ModuleCompletionHandler?) {
+        output.setupInitialState(withArguments: args, completion: completion)
     }
 }
 

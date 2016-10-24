@@ -31,7 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ServicesAssembly.shared.setup()
         AppRouter.setup(withNavigation: navigationController)
         
-        AppRouter.shared.replaceViewStack(rootUrn: StartScreenFactory.shared.moduleURN, animated: true)
+        AppRouter.shared.replaceViewStack(rootUrn: StartScreenFactory.shared.moduleURN, animated: true, completion: nil)
         
         return true
     }

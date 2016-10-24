@@ -37,8 +37,8 @@ class SignInViewController: UIViewController {
 // MARK:
 extension SignInViewController: ModuleInputProtocol {
 
-    func setupInitialState(withArguments args: Dictionary<String, String>) {
-        
+    func setupInitialState(withArguments args: NamedValuesType, completion: ModuleCompletionHandler?) {
+        output.setupInitialState(withArguments: args, completion: completion)
     }
 }
 

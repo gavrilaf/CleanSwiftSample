@@ -22,7 +22,7 @@ struct StartScreenFactory : ModuleFactoryProtocol {
         return "StartScreen"
     }
 
-    func createModule(arguments: Dictionary<String, String>) -> UIViewController {
+    func createModule(arguments: NamedValuesType, completion: ModuleCompletionHandler?) -> UIViewController {
         DDLogDebug("Opening module '\(storyboardId)' with controller '\(initialControllerID)'")
         
         let storyboard = UIStoryboard(name: storyboardId, bundle: nil)
@@ -30,7 +30,7 @@ struct StartScreenFactory : ModuleFactoryProtocol {
         
         let moduleInput = controller as? ModuleInputProtocol
         if let moduleInput = moduleInput {
-            moduleInput.setupInitialState(withArguments: arguments)
+            moduleInput.setupInitialState(withArguments: arguments, completion: completion)
         } else {
             fatalError("\(initialControllerID) moduleInput == nil")
         }

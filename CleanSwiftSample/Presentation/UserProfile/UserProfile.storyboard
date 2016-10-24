@@ -18,22 +18,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User profile:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4e-Lt-z9m">
-                                <frame key="frameInset" minX="10" minY="20" width="117" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User profile:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4e-Lt-z9m">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User-1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIk-eU-y2Z">
-                                <frame key="frameInset" minX="10" minY="49" width="141" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User-1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIk-eU-y2Z">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="dw2-rM-dOL"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZq-Sl-4ZC">
+                                <state key="normal" title="Close module"/>
+                                <connections>
+                                    <action selector="didCloseModuleClick:" destination="aG0-Lb-Zy5" eventType="touchUpInside" id="Tje-vs-IyE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZZq-Sl-4ZC" firstAttribute="top" secondItem="KIk-eU-y2Z" secondAttribute="bottom" constant="8" id="42J-JF-ehU"/>
+                            <constraint firstItem="KIk-eU-y2Z" firstAttribute="top" secondItem="Y4e-Lt-z9m" secondAttribute="bottom" constant="8" symbolic="YES" id="LX8-CK-ayF"/>
+                            <constraint firstItem="KIk-eU-y2Z" firstAttribute="top" secondItem="Fzd-6S-cpe" secondAttribute="top" constant="49" id="edU-Sb-SXO"/>
+                            <constraint firstItem="ZZq-Sl-4ZC" firstAttribute="leading" secondItem="Fzd-6S-cpe" secondAttribute="leading" constant="10" id="jVe-J4-9Uc"/>
+                            <constraint firstItem="KIk-eU-y2Z" firstAttribute="leading" secondItem="Y4e-Lt-z9m" secondAttribute="leading" id="oen-H1-2Dl"/>
+                            <constraint firstItem="KIk-eU-y2Z" firstAttribute="leading" secondItem="ZZq-Sl-4ZC" secondAttribute="leading" id="x4u-HM-pov"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="userLabel" destination="KIk-eU-y2Z" id="KVd-Gv-gSZ"/>

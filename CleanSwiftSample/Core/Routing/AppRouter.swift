@@ -32,28 +32,32 @@ struct AppRouter {
     
     // MARK:
     
-    func pushModule(byUrn urn: String, animated: Bool) {
+    func pushModule(byUrn urn: String, animated: Bool, completion: ModuleCompletionHandler?) {
         guard let url = URL(string:"\(Compass.scheme)\(urn)") else {
             fatalError("Invalid URN: \(urn)")
         }
         
-        guard let controller = createModule(byUrl: url) else {
+        guard let controller = createModule(byUrl: url, completion: completion) else {
             fatalError("Can't create controller by URL: \(url)")
         }
         
         navigationController.pushViewController(controller, animated: animated)
     }
     
-    func replaceViewStack(rootUrn urn: String, animated: Bool) {
+    func replaceViewStack(rootUrn urn: String, animated: Bool, completion: ModuleCompletionHandler?) {
         guard let url = URL(string:"\(Compass.scheme)\(urn)") else {
             fatalError("Invalid URN: \(urn)")
         }
         
-        guard let controller = createModule(byUrl: url) else {
+        guard let controller = createModule(byUrl: url, completion: completion) else {
             fatalError("Can't create controller by URL: \(url)")
         }
         
         navigationController.setViewControllers([controller], animated: animated)
+    }
+    
+    func popCurrentController(animated: Bool) {
+        navigationController.popViewController(animated: animated)
     }
     
     
@@ -69,7 +73,7 @@ struct AppRouter {
         }
     }
     
-    private func createModule(byUrl url: URL) -> UIViewController? {
+    private func createModule(byUrl url: URL, completion: ModuleCompletionHandler?) -> UIViewController? {
         guard let location = Compass.parse(url: url) else {
             return nil
         }
@@ -82,7 +86,7 @@ struct AppRouter {
             return location.path == $0.moduleURN
         }
         
-        return factory?.createModule(arguments: arguments)
+        return factory?.createModule(arguments: arguments, completion: completion)
     }
     
     // MARK:

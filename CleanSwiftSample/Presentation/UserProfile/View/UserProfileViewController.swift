@@ -19,6 +19,10 @@ class UserProfileViewController: UIViewController {
     
     // MARK: Handlers
     
+    @IBAction func didCloseModuleClick(_ sender: AnyObject) {
+        output.didCloseModuleClick()
+    }
+    
     // MARK:
     var output: UserProfileViewOutput!
     
@@ -30,14 +34,8 @@ class UserProfileViewController: UIViewController {
 // MARK:
 extension UserProfileViewController: ModuleInputProtocol {
 
-    func setupInitialState(withArguments args: Dictionary<String, String>) {
-        DDLogDebug("UserProfile.setupInitialState: \(args)")
-        
-        if let user = args["user"] {
-            output.setup(user: user)
-        } else {
-            fatalError("Invalid parameters")
-        }
+    func setupInitialState(withArguments args: NamedValuesType, completion: ModuleCompletionHandler?) {
+        output.setupInitialState(withArguments: args, completion: completion)
     }
 }
 

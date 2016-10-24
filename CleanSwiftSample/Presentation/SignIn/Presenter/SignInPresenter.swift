@@ -5,6 +5,7 @@
 //  Created by Eugen Fedchenko on 20/10/2016.
 //  Copyright © 2016 Public. All rights reserved.
 //
+import CocoaLumberjack
 
 class SignInPresenter {
 
@@ -15,13 +16,21 @@ class SignInPresenter {
 // MARK:
 extension SignInPresenter: SignInViewOutput {
     
+    func setupInitialState(withArguments args: NamedValuesType, completion: ModuleCompletionHandler?) {
+    
+    }
+    
     func viewIsReady() {
             
     }
     
     func didClickSignIn(withUser user: String) {
         let urn = UserProfileFactory.shared.createModuleURN(withUser: user)
-        AppRouter.shared.pushModule(byUrn: urn, animated: true)
+        let router = AppRouter.shared
+        router.pushModule(byUrn: urn, animated: true) { (args) in
+            DDLogDebug("UserProfile module is closed")
+            router.popCurrentController(animated: true)
+        }
     }
 }
 

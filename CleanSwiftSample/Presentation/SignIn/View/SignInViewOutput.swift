@@ -11,10 +11,7 @@
  */
 protocol SignInViewOutput {
 
-    /**
-        @author Eugen Fedchenko
-        Notify presenter that view is ready
-    */
+    func setupInitialState(withArguments args: NamedValuesType, completion: ModuleCompletionHandler?)
 	func viewIsReady()
     
     func didClickSignIn(withUser user: String)

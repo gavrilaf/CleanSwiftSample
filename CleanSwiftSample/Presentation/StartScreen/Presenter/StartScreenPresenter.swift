@@ -15,12 +15,16 @@ class StartScreenPresenter {
 // MARK:
 extension StartScreenPresenter: StartScreenViewOutput {
     
+    func setupInitialState(withArguments args: NamedValuesType, completion: ModuleCompletionHandler?) {
+    
+    }
+    
     func viewIsReady() {
             
     }
     
     func didClickOpenSignIn() {
-        AppRouter.shared.pushModule(byUrn: SignInFactory.shared.moduleURN, animated: true)
+        AppRouter.shared.pushModule(byUrn: SignInFactory.shared.moduleURN, animated: true, completion: nil)
     }
 }
 

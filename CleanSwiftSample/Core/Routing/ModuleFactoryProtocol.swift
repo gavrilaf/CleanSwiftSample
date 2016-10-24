@@ -8,6 +8,9 @@
 
 import UIKit
 
+typealias NamedValuesType = Dictionary<String, String>
+typealias ModuleCompletionHandler = ((_ : NamedValuesType?) -> Void)
+
 protocol ModuleFactoryProtocol {
     
     /**
@@ -19,5 +22,5 @@ protocol ModuleFactoryProtocol {
      * Create module with arguments
      * Returns module root UIViewController, must implement ModuleInputProtocol. 
      */
-    func createModule(arguments: Dictionary<String, String>) -> UIViewController
+    func createModule(arguments: NamedValuesType, completion: ModuleCompletionHandler?) -> UIViewController
 }

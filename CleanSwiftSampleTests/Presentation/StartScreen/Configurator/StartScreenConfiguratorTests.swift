@@ -45,7 +45,7 @@ class StartScreenModuleConfiguratorTests: XCTestCase {
 
         var setupInitialStateDidCall = false
 
-        override func setupInitialState(withArguments args: Dictionary<String, String>) {
+        override func setupInitialState(withArguments args: NamedValuesType, completion: ModuleCompletionHandler?) {
             setupInitialStateDidCall = true
         }
     }

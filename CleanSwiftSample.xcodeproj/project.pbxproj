@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		0CC2F20CD67437C9ECF73001 /* SignInPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E64145AA89F6193EF8C8D7 /* SignInPresenter.swift */; };
 		0E512888FB9D888DCEF73EA7 /* SignInViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FE2D34DB718460DE501DA /* SignInViewOutput.swift */; };
-		195F9ACDC8D19C0D76D4ADAE /* ShowBalanceInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43C13B4C6DB824DABB80BE8 /* ShowBalanceInteractorInput.swift */; };
 		22571917863C5E6FCDE8D54D /* StartScreenConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA77BDEE744E485DD771FE19 /* StartScreenConfigurator.swift */; };
-		27733C0417BBECC4E49BA0DB /* ShowBalanceViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444C72DBD61C8B95F6E1171 /* ShowBalanceViewOutput.swift */; };
 		27F63E889D3EC6962ABB5375 /* StartScreenViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A6DC0230ACC5E8227D732 /* StartScreenViewOutput.swift */; };
 		2B8F183C5A5098F7171E9A53 /* SignInConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3908DDFB7AB8F5A758B9FEF8 /* SignInConfigurator.swift */; };
 		2E208359546AB28A44529813 /* StartScreenConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66CCD9ACDCC92B7D388354 /* StartScreenConfiguratorTests.swift */; };
@@ -34,12 +32,9 @@
 		4679259F1DBA57F900B31EE4 /* AppSettingsServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4679259E1DBA57F900B31EE4 /* AppSettingsServiceImpl.swift */; };
 		467925A51DBA586A00B31EE4 /* URNBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467925A41DBA586A00B31EE4 /* URNBuilderTests.swift */; };
 		467925A71DBA591E00B31EE4 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467925A61DBA591E00B31EE4 /* UserProfile.storyboard */; };
-		53636B4392E603F00F52EE3E /* ShowBalanceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1300B4CFD0537087DA1757F4 /* ShowBalanceInteractor.swift */; };
 		644EC00BE9CD7D8DA7F97376 /* UserProfileInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663B5887702B535101964540 /* UserProfileInteractorInput.swift */; };
-		67C41FD90C0DC0BE3B4EE040 /* ShowBalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F18D810526DCDC7EC8BC260 /* ShowBalanceViewController.swift */; };
 		6F40ADEF3C60620321C3AD1E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC4805267F09765978BC59 /* SignInViewController.swift */; };
 		70BADD94808AE07AC63EC8F2 /* UserProfileConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5B0AE5B196BB40E9A98B42 /* UserProfileConfigurator.swift */; };
-		75428DC24AD5C5B6354EA48D /* ShowBalanceInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9471ECE485953F02F169A8 /* ShowBalanceInteractorTests.swift */; };
 		7C057381CAFF310548B246A6 /* SignInFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAFBFAAD763350018957275 /* SignInFactory.swift */; };
 		7F172971D6762B34518B2209 /* StartScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099F99466C2278B3D6669CE8 /* StartScreenFactory.swift */; };
 		8D611DB1FADE8FF13678B78C /* UserProfileViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933EEAD610C3E11D502D8310 /* UserProfileViewOutput.swift */; };
@@ -51,27 +46,20 @@
 		AA491F495BC43417BAC6B950 /* StartScreenInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2505022AE99F5667E20715C /* StartScreenInteractorOutput.swift */; };
 		B7A211E0DE502997396D0F49 /* SignInInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629695DC9C4EE759B61F2AC /* SignInInteractorTests.swift */; };
 		B8269B257BC0BB8B8521F50E /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0206257BD0041D855CFB2139 /* UserProfileViewController.swift */; };
-		BA8B0A34228447ACA689EDAE /* ShowBalancePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD9716AB747E7BAB5E25843 /* ShowBalancePresenter.swift */; };
 		BE735BDA1F9439F83D3A2198 /* StartScreenInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F8EFC20A12CA08595ED029 /* StartScreenInteractorTests.swift */; };
-		C2FFC412A8C7CCB4A27A8386 /* ShowBalanceInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34AEA25B5E5F1CAD39065EE /* ShowBalanceInitializer.swift */; };
 		C4695DFDBDFA9E603C2649C8 /* SignInViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C80B0EEFF3608A4B1D49 /* SignInViewInput.swift */; };
 		CA441086DFD460F464013379 /* UserProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28BEDE98E67C471386B72F8 /* UserProfilePresenter.swift */; };
 		CB654DE43F7A0744E48C8EE7 /* StartScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FB4648C96C43FF8139CC2 /* StartScreenPresenter.swift */; };
 		CC057B4B5C2CD3A509E9DC05 /* SignInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52647A4EA0437794F7CB1149 /* SignInInteractor.swift */; };
-		CC3565E90E18E112337210AC /* ShowBalanceInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A473FAD03A383E4A3C0F41 /* ShowBalanceInteractorOutput.swift */; };
 		CF1858883F41A3B261CDE79F /* StartScreenInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4540E3A3E405305788CB0822 /* StartScreenInitializer.swift */; };
 		CF47709CBC808D217834E61D /* StartScreenViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B0A29EBE141EA43EA94182 /* StartScreenViewInput.swift */; };
 		D41A784976DF22290AAD53C9 /* UserProfileViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C124F9BA3D927A7D1CC8E7E1 /* UserProfileViewInput.swift */; };
-		DDEDD2AA2729EAFD2BC4AA2E /* ShowBalanceConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D8405B78DDF533B4D4D68 /* ShowBalanceConfiguratorTests.swift */; };
 		DEB4604C9094DA3FA1BFBA37 /* SignInInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF33BFA8BEA68498EDD4BA /* SignInInteractorInput.swift */; };
 		E01610A30B9FE9A661746778 /* UserProfileInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB2057A98A6DDDBEA515F12 /* UserProfileInteractorTests.swift */; };
 		EA25FA2DBC0E878A57118AFE /* SignInInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3870D2AD46928CACBD19F29 /* SignInInitializer.swift */; };
 		EBC54FB20E4E34B2DE52735E /* SignInInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4378B2391C0FF6347365EB8E /* SignInInteractorOutput.swift */; };
-		F4158C00AB6830E55FDAD399 /* ShowBalanceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACA98553C53307EA3CB3332 /* ShowBalanceConfigurator.swift */; };
-		F7540EAB27117CCF2DBDF270 /* ShowBalanceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E80A6944299E9B85A6ABBC6 /* ShowBalanceFactory.swift */; };
 		FA90F724EAEA076E87D1648D /* Pods_CleanSwiftSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3832E473BC362BDB07A4E90F /* Pods_CleanSwiftSampleTests.framework */; };
 		FB7D54B726468FC17EF62BB4 /* StartScreenInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B2EAE5F0163C6B08F41B8 /* StartScreenInteractorInput.swift */; };
-		FC7E67CE1AF0BE8181F65550 /* ShowBalanceViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC5619DB73E868C7EBE8215 /* ShowBalanceViewInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,19 +77,15 @@
 		02BF33BFA8BEA68498EDD4BA /* SignInInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractorInput.swift; sourceTree = "<group>"; };
 		099F99466C2278B3D6669CE8 /* StartScreenFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartScreenFactory.swift; sourceTree = "<group>"; };
 		0B234291251035EF9CD00971 /* UserProfileInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfileInteractorOutput.swift; sourceTree = "<group>"; };
-		0F18D810526DCDC7EC8BC260 /* ShowBalanceViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowBalanceViewController.swift; sourceTree = "<group>"; };
-		1300B4CFD0537087DA1757F4 /* ShowBalanceInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowBalanceInteractor.swift; sourceTree = "<group>"; };
 		142FB4648C96C43FF8139CC2 /* StartScreenPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartScreenPresenter.swift; sourceTree = "<group>"; };
 		1FE94F5669FF9A793B408657 /* StartScreenInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartScreenInteractor.swift; sourceTree = "<group>"; };
 		22336429574D838ABF165755 /* UserProfileFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfileFactory.swift; sourceTree = "<group>"; };
 		228A6DC0230ACC5E8227D732 /* StartScreenViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartScreenViewOutput.swift; sourceTree = "<group>"; };
 		2534BA72A55827FCD0675765 /* UserProfileInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfileInteractor.swift; sourceTree = "<group>"; };
-		2CC5619DB73E868C7EBE8215 /* ShowBalanceViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowBalanceViewInput.swift; sourceTree = "<group>"; };
 		3832E473BC362BDB07A4E90F /* Pods_CleanSwiftSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanSwiftSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3908DDFB7AB8F5A758B9FEF8 /* SignInConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInConfigurator.swift; sourceTree = "<group>"; };
 		3980FFCB944727A629F6969F /* Pods-CleanSwiftSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanSwiftSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanSwiftSample/Pods-CleanSwiftSample.release.xcconfig"; sourceTree = "<group>"; };
 		3A31A127E3CC7B89D22D0E22 /* UserProfileInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfileInitializer.swift; sourceTree = "<group>"; };
-		3E80A6944299E9B85A6ABBC6 /* ShowBalanceFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowBalanceFactory.swift; sourceTree = "<group>"; };
 		4378B2391C0FF6347365EB8E /* SignInInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractorOutput.swift; sourceTree = "<group>"; };
 		43B0A29EBE141EA43EA94182 /* StartScreenViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartScreenViewInput.swift; sourceTree = "<group>"; };
 		4540E3A3E405305788CB0822 /* StartScreenInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartScreenInitializer.swift; sourceTree = "<group>"; };
@@ -126,7 +110,6 @@
 		467925A61DBA591E00B31EE4 /* UserProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserProfile.storyboard; sourceTree = "<group>"; };
 		51AAACAB53D5CABEA92B46E0 /* Pods-CleanSwiftSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanSwiftSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CleanSwiftSampleTests/Pods-CleanSwiftSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		52647A4EA0437794F7CB1149 /* SignInInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractor.swift; sourceTree = "<group>"; };
-		5C9471ECE485953F02F169A8 /* ShowBalanceInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowBalanceInteractorTests.swift; sourceTree = "<group>"; };
 		64DC4805267F09765978BC59 /* SignInViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		663B5887702B535101964540 /* UserProfileInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfileInteractorInput.swift; sourceTree = "<group>"; };
 		68F21CEDB4E9EE5D021E683A /* Pods-CleanSwiftSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanSwiftSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanSwiftSampleTests/Pods-CleanSwiftSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,18 +118,13 @@
 		88E64145AA89F6193EF8C8D7 /* SignInPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInPresenter.swift; sourceTree = "<group>"; };
 		92F8EFC20A12CA08595ED029 /* StartScreenInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartScreenInteractorTests.swift; sourceTree = "<group>"; };
 		933EEAD610C3E11D502D8310 /* UserProfileViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfileViewOutput.swift; sourceTree = "<group>"; };
-		9F3D8405B78DDF533B4D4D68 /* ShowBalanceConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowBalanceConfiguratorTests.swift; sourceTree = "<group>"; };
 		A089F3D729395845CDD83513 /* Pods-CleanSwiftSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanSwiftSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CleanSwiftSample/Pods-CleanSwiftSample.debug.xcconfig"; sourceTree = "<group>"; };
-		A34AEA25B5E5F1CAD39065EE /* ShowBalanceInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowBalanceInitializer.swift; sourceTree = "<group>"; };
 		ACFB4292F2D7B6C9EF7F029A /* Pods_CleanSwiftSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanSwiftSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC68F6D266AFB99577C2C8E /* SignInConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInConfiguratorTests.swift; sourceTree = "<group>"; };
-		B43C13B4C6DB824DABB80BE8 /* ShowBalanceInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowBalanceInteractorInput.swift; sourceTree = "<group>"; };
-		BACA98553C53307EA3CB3332 /* ShowBalanceConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowBalanceConfigurator.swift; sourceTree = "<group>"; };
 		C124F9BA3D927A7D1CC8E7E1 /* UserProfileViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfileViewInput.swift; sourceTree = "<group>"; };
 		C28BEDE98E67C471386B72F8 /* UserProfilePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfilePresenter.swift; sourceTree = "<group>"; };
 		C3870D2AD46928CACBD19F29 /* SignInInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInitializer.swift; sourceTree = "<group>"; };
 		C629695DC9C4EE759B61F2AC /* SignInInteractorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInInteractorTests.swift; sourceTree = "<group>"; };
-		CDD9716AB747E7BAB5E25843 /* ShowBalancePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowBalancePresenter.swift; sourceTree = "<group>"; };
 		D09FE2D34DB718460DE501DA /* SignInViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewOutput.swift; sourceTree = "<group>"; };
 		D6E0C80B0EEFF3608A4B1D49 /* SignInViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignInViewInput.swift; sourceTree = "<group>"; };
 		DA77BDEE744E485DD771FE19 /* StartScreenConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartScreenConfigurator.swift; sourceTree = "<group>"; };
@@ -155,8 +133,6 @@
 		EC04627ECE0BA879F0C6C5EE /* StartScreenViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
 		EF5B0AE5B196BB40E9A98B42 /* UserProfileConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserProfileConfigurator.swift; sourceTree = "<group>"; };
 		F2505022AE99F5667E20715C /* StartScreenInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartScreenInteractorOutput.swift; sourceTree = "<group>"; };
-		F444C72DBD61C8B95F6E1171 /* ShowBalanceViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowBalanceViewOutput.swift; sourceTree = "<group>"; };
-		F7A473FAD03A383E4A3C0F41 /* ShowBalanceInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShowBalanceInteractorOutput.swift; sourceTree = "<group>"; };
 		FB66CCD9ACDCC92B7D388354 /* StartScreenConfiguratorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartScreenConfiguratorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -206,15 +182,6 @@
 				51AAACAB53D5CABEA92B46E0 /* Pods-CleanSwiftSampleTests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		2ABBB7045AE8043AC2C3D1A3 /* ShowBalance */ = {
-			isa = PBXGroup;
-			children = (
-				C41DA14EC3B9568000A086BD /* Configurator */,
-				59CAEC44A9B45C32B8091C1E /* Interactor */,
-			);
-			path = ShowBalance;
 			sourceTree = "<group>";
 		};
 		2B08F6609DEA3A7A5A04694C /* UserProfile */ = {
@@ -299,7 +266,6 @@
 				FC0056A33E9ACF23F19093DD /* SignIn */,
 				7EBB3CA9D01EF3AAF46C0FDE /* StartScreen */,
 				2B08F6609DEA3A7A5A04694C /* UserProfile */,
-				4A69861CC4CA84030DD7FD4E /* ShowBalance */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -355,7 +321,6 @@
 				8BB3569B242E8E2D41A0F869 /* SignIn */,
 				19BD96373E547B9724780B35 /* StartScreen */,
 				C248B5A13366E65A3F05DD69 /* UserProfile */,
-				2ABBB7045AE8043AC2C3D1A3 /* ShowBalance */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -404,18 +369,6 @@
 				467925A41DBA586A00B31EE4 /* URNBuilderTests.swift */,
 			);
 			path = Parsers;
-			sourceTree = "<group>";
-		};
-		4A69861CC4CA84030DD7FD4E /* ShowBalance */ = {
-			isa = PBXGroup;
-			children = (
-				3E80A6944299E9B85A6ABBC6 /* ShowBalanceFactory.swift */,
-				7AE342E2FD8D3746D9026D17 /* View */,
-				B35DCC7D5FEF289B13070F97 /* Presenter */,
-				B8103CA44DF2D256F57D7863 /* Interactor */,
-				B9C9E5C390F74084FAF025EE /* Configurator */,
-			);
-			path = ShowBalance;
 			sourceTree = "<group>";
 		};
 		4ACB986C7F93BE668BEB18A1 /* View */ = {
@@ -473,14 +426,6 @@
 			path = Interactor;
 			sourceTree = "<group>";
 		};
-		59CAEC44A9B45C32B8091C1E /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				5C9471ECE485953F02F169A8 /* ShowBalanceInteractorTests.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
 		5F504F2FA896B0101F28F81A /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -496,16 +441,6 @@
 				4540E3A3E405305788CB0822 /* StartScreenInitializer.swift */,
 			);
 			path = Configurator;
-			sourceTree = "<group>";
-		};
-		7AE342E2FD8D3746D9026D17 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2CC5619DB73E868C7EBE8215 /* ShowBalanceViewInput.swift */,
-				F444C72DBD61C8B95F6E1171 /* ShowBalanceViewOutput.swift */,
-				0F18D810526DCDC7EC8BC260 /* ShowBalanceViewController.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		7EBB3CA9D01EF3AAF46C0FDE /* StartScreen */ = {
@@ -555,33 +490,6 @@
 			path = Configurator;
 			sourceTree = "<group>";
 		};
-		B35DCC7D5FEF289B13070F97 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				CDD9716AB747E7BAB5E25843 /* ShowBalancePresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		B8103CA44DF2D256F57D7863 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				B43C13B4C6DB824DABB80BE8 /* ShowBalanceInteractorInput.swift */,
-				F7A473FAD03A383E4A3C0F41 /* ShowBalanceInteractorOutput.swift */,
-				1300B4CFD0537087DA1757F4 /* ShowBalanceInteractor.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		B9C9E5C390F74084FAF025EE /* Configurator */ = {
-			isa = PBXGroup;
-			children = (
-				BACA98553C53307EA3CB3332 /* ShowBalanceConfigurator.swift */,
-				A34AEA25B5E5F1CAD39065EE /* ShowBalanceInitializer.swift */,
-			);
-			path = Configurator;
-			sourceTree = "<group>";
-		};
 		BC0146F5EBDF37D1AFCECE0F /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
@@ -606,14 +514,6 @@
 				A43F97AF689D2E9828E56F9F /* Interactor */,
 			);
 			path = UserProfile;
-			sourceTree = "<group>";
-		};
-		C41DA14EC3B9568000A086BD /* Configurator */ = {
-			isa = PBXGroup;
-			children = (
-				9F3D8405B78DDF533B4D4D68 /* ShowBalanceConfiguratorTests.swift */,
-			);
-			path = Configurator;
 			sourceTree = "<group>";
 		};
 		C7F8B2E016F699D512359C7D /* View */ = {
@@ -902,16 +802,6 @@
 				9D579959C46EF1D97E072EDD /* UserProfileInteractor.swift in Sources */,
 				70BADD94808AE07AC63EC8F2 /* UserProfileConfigurator.swift in Sources */,
 				9CAB5A1B00833F9311B999A6 /* UserProfileInitializer.swift in Sources */,
-				F7540EAB27117CCF2DBDF270 /* ShowBalanceFactory.swift in Sources */,
-				FC7E67CE1AF0BE8181F65550 /* ShowBalanceViewInput.swift in Sources */,
-				27733C0417BBECC4E49BA0DB /* ShowBalanceViewOutput.swift in Sources */,
-				67C41FD90C0DC0BE3B4EE040 /* ShowBalanceViewController.swift in Sources */,
-				BA8B0A34228447ACA689EDAE /* ShowBalancePresenter.swift in Sources */,
-				195F9ACDC8D19C0D76D4ADAE /* ShowBalanceInteractorInput.swift in Sources */,
-				CC3565E90E18E112337210AC /* ShowBalanceInteractorOutput.swift in Sources */,
-				53636B4392E603F00F52EE3E /* ShowBalanceInteractor.swift in Sources */,
-				F4158C00AB6830E55FDAD399 /* ShowBalanceConfigurator.swift in Sources */,
-				C2FFC412A8C7CCB4A27A8386 /* ShowBalanceInitializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -926,8 +816,6 @@
 				38195C85AAE38DC82002F5F9 /* UserProfileConfiguratorTests.swift in Sources */,
 				E01610A30B9FE9A661746778 /* UserProfileInteractorTests.swift in Sources */,
 				467925A51DBA586A00B31EE4 /* URNBuilderTests.swift in Sources */,
-				DDEDD2AA2729EAFD2BC4AA2E /* ShowBalanceConfiguratorTests.swift in Sources */,
-				75428DC24AD5C5B6354EA48D /* ShowBalanceInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
