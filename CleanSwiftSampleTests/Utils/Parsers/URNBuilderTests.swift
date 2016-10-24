@@ -43,6 +43,14 @@ class URNBuilderTests: XCTestCase {
         XCTAssert(builder.buildWithArgs(args: []) == "")
     }
     
+    func testEmptyParamsBuilder() {
+        let builder = URNBuilder(string: "open:{type}:{name}")
+        
+        XCTAssert(builder.buildWithArgs(args: ["simple", "11"]) == "open:simple:11")
+        XCTAssert(builder.buildWithArgs(args: ["", "11"]) == "open::11")
+        XCTAssert(builder.buildWithArgs(args: ["simple", ""]) == "open:simple:")
+    }
+
     
     
 }
