@@ -10,10 +10,10 @@ xcodeproj_path: CleanSwiftSample.xcodeproj
 project_target: CleanSwiftSample
 
 # The file path for new modules
-project_file_path: CleanSwiftSample/Presentation
+project_file_path: CleanSwiftSample/Presentation/UserStories
 
 # The Xcode group path to new modules
-project_group_path: CleanSwiftSample/Presentation
+project_group_path: CleanSwiftSample/Presentation/UserStories
 
 ### Tests generation settings section
 # The tests target name

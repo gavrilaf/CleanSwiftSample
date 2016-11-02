@@ -6,6 +6,7 @@ target 'CleanSwiftSample' do
   use_frameworks!
 
   # Pods for CleanSwiftSample
+  pod 'PromiseKit', '~> 4.0'
   pod 'Compass', '~> 4.0'
   pod 'CocoaLumberjack/Swift'
 

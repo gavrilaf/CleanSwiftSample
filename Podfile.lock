@@ -7,15 +7,28 @@ PODS:
   - CocoaLumberjack/Swift (3.0.0):
     - CocoaLumberjack/Extensions
   - Compass (4.0.0)
+  - PromiseKit (4.0.4):
+    - PromiseKit/Foundation (= 4.0.4)
+    - PromiseKit/QuartzCore (= 4.0.4)
+    - PromiseKit/UIKit (= 4.0.4)
+  - PromiseKit/CorePromise (4.0.4)
+  - PromiseKit/Foundation (4.0.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.0.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.0.4):
+    - PromiseKit/CorePromise
 
 DEPENDENCIES:
   - CocoaLumberjack/Swift
   - Compass (~> 4.0)
+  - PromiseKit (~> 4.0)
 
 SPEC CHECKSUMS:
   CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
   Compass: b7802d133b95ffde747515f0e84ed8b5153c3d53
+  PromiseKit: 8e8ee39d33ff199d92a1a883b5396f6285be6c91
 
-PODFILE CHECKSUM: d5f6f0721ae74ed82acee51d1226349aa6ae8b3f
+PODFILE CHECKSUM: 72789b0c9f67282111b2f53f797bffe3bf870a19
 
 COCOAPODS: 1.1.0.rc.3
